@@ -12,7 +12,6 @@
 
 <CustomerCardHero
 	title="Property management made simple"
-	subtitle="Comprehensive rental property administration that handles everything from tenant acquisition to legal compliance, allowing property owners to receive monthly income without day-to-day landlord responsibilities"
 	customers={[
 		{
 			name: "Lino Müller",
