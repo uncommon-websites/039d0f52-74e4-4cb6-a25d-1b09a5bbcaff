@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+	title="Turn your property into effortless income"
+	subtitle="Comprehensive property management services that handle everything from tenant placement to maintenance, so you can enjoy the profits without the hassles."
+	imageSrc="/generated/image-a-professional-homeowner-sitting-comfort.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by homeowners from leading real estate platforms"
+	logoUrls={[
+		'https://logo.clearbit.com/zillow.com',
+		'https://logo.clearbit.com/redfin.com',
+		'https://logo.clearbit.com/realtor.com',
+		'https://logo.clearbit.com/apartments.com'
+	]}
+/>
 
 <Summary
 	generating
