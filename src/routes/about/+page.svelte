@@ -27,7 +27,7 @@
 <SecondaryHero
 	title="Professional property management"
 	subtitle="across Germany since our founding"
-	imageSrc="/generated/image-a-diverse-team-of-property-management-pr.webp"
+	imageSrc="/generated/image-a-diverse-team-of-german-property-manage.webp"
 />
 
 <!-- Story Section -->
