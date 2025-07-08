@@ -2,19 +2,34 @@
 	// Components
 	import Summary from "$lib/components/layout/Summary.svelte";
 	import Features from "$lib/components/layout/Features.svelte";
-	import Testimonials from "$lib/components/layout/Testimonials.svelte";
+	// import Testimonials from "$lib/components/layout/Testimonials.svelte";
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 	import UseCases from "$lib/components/layout/UseCases.svelte";
 </script>
 
-<Hero
-	title="Professional property management across Germany"
+<CustomerCardHero
+	title="Property management made simple"
 	subtitle="Comprehensive rental property administration that handles everything from tenant acquisition to legal compliance, allowing property owners to receive monthly income without day-to-day landlord responsibilities"
-	imageSrc="/generated/image-a-modern-residential-home-with-a-cozy-in.webp"
-	centered={false}
+	customers={[
+		{
+			name: "Lino Müller",
+			position: "Property Owner",
+			imageSrc: "/generated/image-a-professional-man-in-a-modern-office-se.webp"
+		},
+		{
+			name: "Julia Dreher",
+			position: "Tenant",
+			imageSrc: "/generated/image-a-professional-woman-in-a-sleek-modern-h.webp"
+		},
+		{
+			name: "Matthias Weber",
+			position: "Investment Advisor",
+			imageSrc: "/generated/image-a-businessman-sitting-comfortably-in-a-c.webp"
+		}
+	]}
 />
 <LogoScroller 
 	label="Properties advertised on Germany's leading rental platforms"
@@ -31,37 +46,7 @@
 	text="Buena GmbH is a comprehensive property management company that handles all aspects of rental property administration for landlords throughout Germany. We provide end-to-end services including tenant acquisition, property maintenance, rent collection, legal services, and administrative tasks, allowing property owners to focus on their investment strategy rather than operational complexities."
 />
 
-<Testimonials
-	testimonials={[
-		{
-			name: "Lino Müller",
-			position: "Property Owner",
-			company: "Buena Landlord",
-			quote:
-				"I've been a Buena landlord for 4 years with 5 apartments rented and managed through their service. The peace of mind they provide is invaluable - I can focus on my retirement planning while they handle everything else.",
-			image:
-				"/generated/image-a-professional-man-in-a-modern-office-se.webp"
-		},
-		{
-			name: "Julia Dreher",
-			position: "Tenant",
-			company: "Buena Tenant",
-			quote:
-				"The efficiency of Buena's rental process is incredible. I viewed an apartment on Monday and signed the contract on Thursday. Their streamlined approach made finding my 2-room apartment stress-free.",
-			image:
-				"/generated/image-a-professional-woman-in-a-sleek-modern-h.webp"
-		},
-		{
-			name: "Matthias Weber",
-			position: "Investment Advisor",
-			company: "Property Owner",
-			quote:
-				"Buena's comprehensive approach to property management has transformed my rental business. Their professional tenant screening, maintenance coordination, and legal compliance services protect my investment while maximizing returns.",
-			image:
-				"/generated/image-a-businessman-sitting-comfortably-in-a-c.webp"
-		}
-	]}
-/>
+<!-- Testimonials removed - now using CustomerCardHero instead -->
 
 <Features
 	title="Three service tiers for every property owner"
