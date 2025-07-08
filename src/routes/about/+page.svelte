@@ -33,7 +33,7 @@
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We founded Property Management for Homeowners after witnessing countless homeowners struggle with the complexities of being a landlord. What started as a simple conversation with a neighbor who was overwhelmed by tenant screening and maintenance requests grew into a mission to transform property ownership into a truly passive investment.",
+		"We founded Buena after witnessing countless homeowners struggle with the complexities of being a landlord. What started as a simple conversation with a neighbor who was overwhelmed by tenant screening and maintenance requests grew into a mission to transform property ownership into a truly passive investment.",
 		"Our approach centers on comprehensive service that covers every aspect of property management, from finding reliable tenants to handling legal compliance. We believe homeowners should focus on building wealth, not dealing with late-night repair calls or navigating complex housing regulations.",
 		"Today, we help homeowners across the region turn their properties into profitable, hassle-free investments. By combining thorough tenant screening, proactive maintenance, and expert legal guidance, we've created a service that lets property owners sleep well at night knowing their investment is in capable hands."
 	]}
@@ -42,7 +42,7 @@
 <!-- Our Culture Section -->
 <Culture {values} />
 
-<!-- Team and Investors sections removed - no real data available for Property Management for Homeowners -->
+<!-- Team and Investors sections removed - no real data available for Buena -->
 
 <!-- CTA Section -->
 <CallToAction

@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"After watching friends struggle with difficult tenants and midnight maintenance calls, I realized homeowners needed a better way to manage their rental properties. We created Property Management for Homeowners to give you the passive income you deserve without the landlord headaches."`}
+				text={`"After watching friends struggle with difficult tenants and midnight maintenance calls, I realized homeowners needed a better way to manage their rental properties. We created Buena to give you the passive income you deserve without the landlord headaches."`}
 			/>
 
 			<!-- Team Member & CTA Section -->

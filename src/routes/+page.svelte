@@ -38,7 +38,7 @@
 			position: "Marketing Executive",
 			company: "Homeowner",
 			quote:
-				"Before Property Management for Homeowners, I spent 15+ hours per week dealing with tenant calls, maintenance requests, and rent collection. Now I have my weekends back and my rental income is more consistent than ever.",
+				"Before Buena, I spent 15+ hours per week dealing with tenant calls, maintenance requests, and rent collection. Now I have my weekends back and my rental income is more consistent than ever.",
 			image:
 				"/generated/image-a-professional-woman-in-a-sleek-modern-h.webp"
 		},

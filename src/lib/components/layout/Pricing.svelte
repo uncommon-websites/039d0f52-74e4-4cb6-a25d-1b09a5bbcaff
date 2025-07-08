@@ -36,115 +36,127 @@ Please update features according to the company's product offering. Do not remov
 	// Props
 	const {
 		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		subtitle = "Choose the plan that works best for your property portfolio",
+		tierNames = ["Essential", "Professional", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "Properties managed",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
+					Essential: "1-2",
+					Professional: "3-10",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "Team members",
+				name: "Tenant screening",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
+					Essential: "Basic",
+					Professional: "Comprehensive",
+					Enterprise: "AI-powered"
 				}
 			},
 			{
-				name: "Storage",
+				name: "Rent collection",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
+					Essential: true,
+					Professional: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Property maintenance coordination",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Essential: "Basic",
+					Professional: "Advanced",
+					Enterprise: "24/7 priority"
+				}
+			},
+			{
+				name: "Legal compliance support",
+				tiers: {
+					Essential: "Basic",
+					Professional: "Full support",
+					Enterprise: "Legal team access"
+				}
+			},
+			{
+				name: "Financial reporting",
+				tiers: {
+					Essential: "Monthly",
+					Professional: "Weekly",
+					Enterprise: "Real-time"
+				}
+			},
+			{
+				name: "Marketing & listing",
+				tiers: {
+					Essential: "Basic",
+					Professional: "Professional photos",
+					Enterprise: "Premium marketing"
+				}
+			},
+			{
+				name: "Emergency response",
+				tiers: {
+					Essential: "Business hours",
+					Professional: "Extended hours",
+					Enterprise: "24/7"
+				}
+			},
+			{
+				name: "Eviction handling",
+				tiers: {
+					Essential: false,
+					Professional: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Dedicated property manager",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
+					Essential: false,
+					Professional: false,
 					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "Essential",
+				monthlyPrice: 89,
+				yearlyPrice: 79, // 11% savings
+				description: "Perfect for first-time landlords with 1-2 properties",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"1-2 properties managed",
+					"Basic tenant screening",
+					"Monthly rent collection",
+					"Basic maintenance coordination",
+					"Monthly financial reports",
+					"Standard marketing support"
 				],
 				cta: {
 					label: "Get started",
-					href: "/signup?plan=starter"
+					href: "/signup?plan=essential"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Professional",
+				monthlyPrice: 149,
+				yearlyPrice: 129, // 13% savings
+				description: "For growing property portfolios with 3-10 properties",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"3-10 properties managed",
+					"Comprehensive tenant screening",
+					"Automated rent collection",
+					"Advanced maintenance coordination",
+					"Weekly financial reports",
+					"Professional photography",
+					"Eviction handling support",
+					"Priority customer support"
 				],
 				cta: {
 					label: "Get started",
-					href: "/signup?plan=pro"
+					href: "/signup?plan=professional"
 				},
 				highlight: true
 			},
@@ -152,15 +164,17 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "For large portfolios requiring dedicated support",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
+					"Unlimited properties",
+					"AI-powered tenant screening",
+					"24/7 emergency response",
+					"Dedicated property manager",
+					"Real-time financial reporting",
+					"Premium marketing package",
+					"Legal team access",
 					"Custom integrations",
-					"99.9% uptime SLA"
+					"Quarterly strategy reviews"
 				],
 				cta: {
 					label: "Contact sales",
@@ -188,13 +202,13 @@ Please update features according to the company's product offering. Do not remov
 		<div class="mb-8 flex justify-center">
 			<div class="inline-flex items-center rounded-full bg-gray-200 p-0.5 gap-0.5">
 				<button
-					class="rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 {!annual ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-600 hover:text-gray-900'}"
+					class="rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 {!annual ? 'bg-white text-gray-900' : 'text-gray-600 hover:text-gray-900'}"
 					onclick={() => (annual = false)}
 				>
 					Monthly
 				</button>
 				<button
-					class="rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 {annual ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-600 hover:text-gray-900'}"
+					class="rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 {annual ? 'bg-white text-gray-900' : 'text-gray-600 hover:text-gray-900'}"
 					onclick={() => (annual = true)}
 				>
 					Annual <span class="text-xs ml-1 text-gray-500">Save 20%</span>

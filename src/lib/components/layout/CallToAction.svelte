@@ -50,10 +50,10 @@
 
 	// Props
 	const {
-		title = "Ready to enjoy effortless rental income?",
-		subtitle = "Let's get started",
-		description = "Join hundreds of homeowners who've transformed their properties into profitable, hassle-free investments. Get your free consultation today and discover how we can maximize your rental income.",
-		imageSrc = "/generated/image-a-cheerful-homeowner-lounging-comfortabl.webp",
+		title = "Your property. Our full-time job.",
+		subtitle = "Skip the headaches. Start earning more.",
+		description = "Join thousands of satisfied homeowners who trust us to reduce stress, stay compliant, and boost their rental income—98% of rent payments are collected on time every month. Book a free consultation today and see how easy rental income can be with the right team on your side.",
+		imageSrc = "/generated/image-a-joyful-couple-casually-dressed-loungin.webp",
 		callsToAction = [cta],
 		...rest
 	}: {
