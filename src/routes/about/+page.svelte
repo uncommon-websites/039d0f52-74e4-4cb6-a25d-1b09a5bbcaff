@@ -10,32 +10,32 @@
 	// Constants
 	const values = [
 		{
-			title: "Reliability",
-			description: "Consistent, dependable service that homeowners can count on, from tenant screening to maintenance response."
+			title: "Professional licensing",
+			description: "Licensed under § 34c Abs. 1 GewO for property management services, supervised by Bezirksamt Mitte von Berlin, and member of IHK Berlin."
 		},
 		{
-			title: "Transparency",
-			description: "Clear communication and detailed reporting so property owners always know what's happening with their investment."
+			title: "Comprehensive service",
+			description: "From tenant acquisition and property maintenance to legal services and administrative tasks - we handle every aspect of rental property management."
 		},
 		{
-			title: "Expertise",
-			description: "Deep knowledge of property management, tenant relations, and housing regulations to protect your investment."
+			title: "Nationwide coverage",
+			description: "Operating across all of Germany with teams in major cities, ensuring consistent service quality regardless of your property location."
 		}
 	];
 </script>
 
 <SecondaryHero
-	title="Transforming property ownership"
-	subtitle="into hassle-free investments"
+	title="Professional property management"
+	subtitle="across Germany since our founding"
 	imageSrc="/generated/image-a-diverse-team-of-property-management-pr.webp"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We founded Buena after witnessing countless homeowners struggle with the complexities of being a landlord. What started as a simple conversation with a neighbor who was overwhelmed by tenant screening and maintenance requests grew into a mission to transform property ownership into a truly passive investment.",
-		"Our approach centers on comprehensive service that covers every aspect of property management, from finding reliable tenants to handling legal compliance. We believe homeowners should focus on building wealth, not dealing with late-night repair calls or navigating complex housing regulations.",
-		"Today, we help homeowners across the region turn their properties into profitable, hassle-free investments. By combining thorough tenant screening, proactive maintenance, and expert legal guidance, we've created a service that lets property owners sleep well at night knowing their investment is in capable hands."
+		"Buena GmbH was founded with a clear mission: property ownership should be simple, and nobody should have to become a professional in rental, marketing, and administration just to prepare for retirement. We recognized that property ownership often becomes time-intensive, non-transparent, and costly, causing owners to forget why they acquired property in the first place.",
+		"Our comprehensive approach encompasses three distinct service tiers: single unit management for individual apartment owners, entire building management for sole building owners, and specialized WEG administration for co-owners of multi-party buildings. Each service is designed to address the specific needs of different property ownership structures.",
+		"Today, we operate across all of Germany from our headquarters in Berlin, with teams in Leipzig, Munich, Frankfurt am Main, Cologne, Hamburg, and Stuttgart. Licensed under § 34c Abs. 1 GewO and supervised by Bezirksamt Mitte von Berlin, we provide professional property management services that allow property owners to focus on their investment strategy rather than operational complexities."
 	]}
 />
 
@@ -46,7 +46,7 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to turn your property into passive income?"
-	subtitle="Let's get started today"
-	description="Join hundreds of homeowners who've transformed their properties into profitable, hassle-free investments with our comprehensive property management services."
+	title="Professional property management you can trust"
+	subtitle="Licensed, regulated, and nationwide"
+	description="Join property owners across Germany who trust Buena GmbH for comprehensive rental property administration. Contact our team at +49 30 88789123 or info@buena.com to learn how we can help you focus on your investment strategy while we handle the operational complexities."
 />

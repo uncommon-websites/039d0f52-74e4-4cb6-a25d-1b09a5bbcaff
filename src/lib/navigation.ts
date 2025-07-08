@@ -49,8 +49,8 @@ export type NavItem = {
 };
 
 export const cta = {
-	label: "Book demo",
-	href: "/"
+	label: "Contact us",
+	href: "tel:+4930887891"
 };
 
 export const navigation: NavItem[] = [
@@ -66,26 +66,26 @@ export const navigation: NavItem[] = [
 		showInFooter: true,
 		children: [
 			{
-				label: "First-Time Landlords",
-				href: "/use-cases/first-time-landlords",
+				label: "Retirement Investment",
+				href: "/use-cases/retirement-investment",
 				image: "/generated/image-a-homeowner-sitting-at-a-wooden-table-su.webp",
-				description: "Complete guidance for homeowners new to rental property management, from tenant screening to legal compliance, ensuring a smooth transition into becoming a successful landlord with professional support every step of the way",
+				description: "Property owners shouldn't have to become professionals in rental, marketing, and administration just to prepare for retirement. We handle all operational complexities while you focus on your investment strategy.",
 				showInNav: true,
 				showInFooter: true
 			},
 			{
-				label: "Property Maintenance",
-				href: "/use-cases/property-maintenance",
+				label: "Tenant Acquisition",
+				href: "/use-cases/tenant-acquisition",
 				image: "/generated/image-a-diverse-team-of-property-maintenance-w.webp",
-				description: "Professional maintenance services that preserve your property value through expert coordination of repairs, routine upkeep, and emergency response with trusted contractors who understand rental property needs",
+				description: "Professional tenant acquisition services including property photography, listings on ImmobilienScout24 and Immowelt, viewings coordination, identity verification, and complete contract processing.",
 				showInNav: true,
 				showInFooter: true
 			},
 			{
-				label: "Quality Tenant Placement",
-				href: "/use-cases/quality-tenant-placement",
+				label: "Legal Compliance",
+				href: "/use-cases/legal-compliance",
 				image: "/generated/image-a-joyful-family-of-four-including-parent.webp",
-				description: "Expert tenant screening and placement services that connect your property with reliable, long-term tenants through comprehensive background checks, credit verification, and rental history analysis",
+				description: "Licensed property management services under § 34c Abs. 1 GewO, supervised by Bezirksamt Mitte von Berlin, ensuring full legal compliance for your rental property investments.",
 				showInNav: true,
 				showInFooter: true
 			}

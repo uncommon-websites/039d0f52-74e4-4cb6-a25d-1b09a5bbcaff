@@ -191,14 +191,14 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Build your career in property management"
-	subtitle="Join a team that's transforming how homeowners manage their rental properties. "
+	title="Build your career with Buena GmbH"
+	subtitle="Join our team across Germany as we provide comprehensive property management services to landlords and property owners nationwide"
 	imageSrc="/generated/image-a-diverse-group-of-professionals-engaged.webp"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join us?" subtitle="Build your career in property management while helping homeowners succeed" />
+	<SectionHeader title="Why join Buena GmbH?" subtitle="Build your career with Germany's comprehensive property management company" />
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}

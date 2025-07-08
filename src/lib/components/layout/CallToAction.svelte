@@ -50,9 +50,9 @@
 
 	// Props
 	const {
-		title = "Your property. Our full-time job.",
-		subtitle = "Skip the headaches. Start earning more.",
-		description = "Join thousands of satisfied homeowners who trust us to reduce stress, stay compliant, and boost their rental income—98% of rent payments are collected on time every month. Book a free consultation today and see how easy rental income can be with the right team on your side.",
+		title = "Professional property management across Germany",
+		subtitle = "Licensed, regulated, and trusted",
+		description = "Join property owners across Germany who trust Buena GmbH for comprehensive rental property administration. Licensed under § 34c Abs. 1 GewO and supervised by Bezirksamt Mitte von Berlin. 94% of inquiries answered within 24 hours. Contact us at +49 30 88789123 or info@buena.com.",
 		imageSrc = "/generated/image-a-joyful-couple-casually-dressed-loungin.webp",
 		callsToAction = [cta],
 		...rest

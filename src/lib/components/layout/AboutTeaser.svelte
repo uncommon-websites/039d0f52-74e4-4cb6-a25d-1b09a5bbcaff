@@ -21,8 +21,8 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Michael Davidson",
-		role: "Founder & CEO",
+		name: "Matthias Möller",
+		role: "Managing Director",
 		image: "/generated/image-a-professional-property-manager-standing.webp"
 	};
 </script>
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"After watching friends struggle with difficult tenants and midnight maintenance calls, I realized homeowners needed a better way to manage their rental properties. We created Buena to give you the passive income you deserve without the landlord headaches."`}
+				text={`"Property ownership should be simple. Nobody should have to become a professional in rental, marketing, and administration just to prepare for retirement. We created Buena to handle all the complexities so you can focus on what matters most - your investment strategy."`}
 			/>
 
 			<!-- Team Member & CTA Section -->

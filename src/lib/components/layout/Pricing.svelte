@@ -35,150 +35,153 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your property portfolio",
-		tierNames = ["Essential", "Professional", "Enterprise"],
+		title = "Professional property management services",
+		subtitle = "Three service tiers tailored to your property ownership structure",
+		tierNames = ["Single Unit", "Entire Building", "Shared Building"],
 		features = [
 			{
-				name: "Properties managed",
+				name: "Property type",
 				tiers: {
-					Essential: "1-2",
-					Professional: "3-10",
-					Enterprise: "Unlimited"
+					"Single Unit": "Individual apartments",
+					"Entire Building": "Multi-apartment buildings",
+					"Shared Building": "Co-owned buildings (WEG)"
 				}
 			},
 			{
-				name: "Tenant screening",
+				name: "Tenant acquisition",
 				tiers: {
-					Essential: "Basic",
-					Professional: "Comprehensive",
-					Enterprise: "AI-powered"
+					"Single Unit": true,
+					"Entire Building": true,
+					"Shared Building": true
 				}
 			},
 			{
-				name: "Rent collection",
+				name: "Rent collection monitoring",
 				tiers: {
-					Essential: true,
-					Professional: true,
-					Enterprise: true
+					"Single Unit": true,
+					"Entire Building": true,
+					"Shared Building": true
 				}
 			},
 			{
-				name: "Property maintenance coordination",
+				name: "Property maintenance",
 				tiers: {
-					Essential: "Basic",
-					Professional: "Advanced",
-					Enterprise: "24/7 priority"
+					"Single Unit": true,
+					"Entire Building": true,
+					"Shared Building": true
 				}
 			},
 			{
-				name: "Legal compliance support",
+				name: "Legal services",
 				tiers: {
-					Essential: "Basic",
-					Professional: "Full support",
-					Enterprise: "Legal team access"
+					"Single Unit": true,
+					"Entire Building": true,
+					"Shared Building": true
 				}
 			},
 			{
-				name: "Financial reporting",
+				name: "Utility billing management",
 				tiers: {
-					Essential: "Monthly",
-					Professional: "Weekly",
-					Enterprise: "Real-time"
+					"Single Unit": true,
+					"Entire Building": true,
+					"Shared Building": false
 				}
 			},
 			{
-				name: "Marketing & listing",
+				name: "Service provider management",
 				tiers: {
-					Essential: "Basic",
-					Professional: "Professional photos",
-					Enterprise: "Premium marketing"
+					"Single Unit": false,
+					"Entire Building": true,
+					"Shared Building": true
 				}
 			},
 			{
-				name: "Emergency response",
+				name: "Emergency measures",
 				tiers: {
-					Essential: "Business hours",
-					Professional: "Extended hours",
-					Enterprise: "24/7"
+					"Single Unit": false,
+					"Entire Building": true,
+					"Shared Building": true
 				}
 			},
 			{
-				name: "Eviction handling",
+				name: "Owners' meetings",
 				tiers: {
-					Essential: false,
-					Professional: true,
-					Enterprise: true
+					"Single Unit": false,
+					"Entire Building": false,
+					"Shared Building": true
 				}
 			},
 			{
-				name: "Dedicated property manager",
+				name: "Annual financial plans",
 				tiers: {
-					Essential: false,
-					Professional: false,
-					Enterprise: true
+					"Single Unit": false,
+					"Entire Building": false,
+					"Shared Building": true
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Essential",
-				monthlyPrice: 89,
-				yearlyPrice: 79, // 11% savings
-				description: "Perfect for first-time landlords with 1-2 properties",
+				name: "Single Unit Management",
+				monthlyPrice: null,
+				yearlyPrice: null,
+				description: "Sondereigentumsverwaltung - For individual apartment owners",
 				features: [
-					"1-2 properties managed",
-					"Basic tenant screening",
-					"Monthly rent collection",
-					"Basic maintenance coordination",
-					"Monthly financial reports",
-					"Standard marketing support"
+					"Maintenance and modernizations",
+					"Utility billing management",
+					"New tenancy coordination",
+					"Tenant care and support",
+					"Repair management",
+					"Legal services",
+					"Rent price adjustments",
+					"Rent collection monitoring",
+					"Rent dunning services"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=essential"
+					label: "Contact us",
+					href: "tel:+4930887891"
 				}
 			},
 			{
-				name: "Professional",
-				monthlyPrice: 149,
-				yearlyPrice: 129, // 13% savings
-				description: "For growing property portfolios with 3-10 properties",
+				name: "Entire Building Management",
+				monthlyPrice: null,
+				yearlyPrice: null,
+				description: "Mietverwaltung - For sole owners of multi-apartment buildings",
 				features: [
-					"3-10 properties managed",
-					"Comprehensive tenant screening",
-					"Automated rent collection",
-					"Advanced maintenance coordination",
-					"Weekly financial reports",
-					"Professional photography",
-					"Eviction handling support",
-					"Priority customer support"
+					"All single unit services",
+					"Service provider management",
+					"Emergency response measures",
+					"Building-wide coordination",
+					"Comprehensive tenant management",
+					"Professional property oversight",
+					"Legal compliance management",
+					"Financial reporting and accounting"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=professional"
+					label: "Contact us",
+					href: "tel:+4930887891"
 				},
 				highlight: true
 			},
 			{
-				name: "Enterprise",
+				name: "Shared Building Management",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large portfolios requiring dedicated support",
+				description: "WEG Verwaltung - For co-owners of multi-party buildings",
 				features: [
-					"Unlimited properties",
-					"AI-powered tenant screening",
-					"24/7 emergency response",
-					"Dedicated property manager",
-					"Real-time financial reporting",
-					"Premium marketing package",
-					"Legal team access",
-					"Custom integrations",
-					"Quarterly strategy reviews"
+					"Maintenance and modernizations",
+					"Accounting and year-end statements",
+					"Repair management coordination",
+					"Service provider management",
+					"Legal services and compliance",
+					"Owners' meetings organization",
+					"Annual financial planning",
+					"Emergency measures coordination",
+					"Rent collection monitoring"
 				],
 				cta: {
-					label: "Contact sales",
-					href: "/contact"
+					label: "Contact us",
+					href: "tel:+4930887891"
 				}
 			}
 		]
