@@ -1,6 +1,6 @@
 export const CONFIG = {
-	companyName: "Company",
-	description: "Description",
+	companyName: "Property Management for Homeowners",
+	description: "Comprehensive property management services specifically tailored for homeowners, encompassing tenant placement, rent collection, property maintenance, and legal compliance to ensure a hassle-free and profitable rental experience.",
 	image: "/og.png",
 	url: "https://example.com",
 	fontFamily: "Inter Variable"

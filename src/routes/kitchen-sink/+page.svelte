@@ -4,11 +4,11 @@
 	import Features from "$lib/components/layout/Features.svelte";
 
 	// Icons
-	import IconZap from "~icons/lucide/zap";
-	import IconShield from "~icons/lucide/shield";
-	import IconUsers from "~icons/lucide/users";
-	import IconSettings from "~icons/lucide/settings";
-	import IconPalette from "~icons/lucide/palette";
+	import IconZap from "$lib/components/icons/Zap.svelte";
+	import IconShield from "$lib/components/icons/Shield.svelte";
+	import IconUsers from "$lib/components/icons/Users.svelte";
+	import IconSettings from "$lib/components/icons/Settings.svelte";
+	import IconPalette from "$lib/components/icons/Palette.svelte";
 
 	// Theme controls
 	let themeRadius = $state(8); // 0.5rem = 8px

@@ -7,6 +7,7 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import UseCases from "$lib/components/layout/UseCases.svelte";
 </script>
 
 <Hero
@@ -26,65 +27,97 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="We provide comprehensive property management services that handle everything from tenant placement to maintenance and legal compliance. Our hands-off approach allows homeowners to enjoy profitable rental income without the daily hassles of being a landlord."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Anastasia Rodriguez",
+			position: "Marketing Executive",
+			company: "Homeowner",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
+				"Before Property Management for Homeowners, I spent 15+ hours per week dealing with tenant calls, maintenance requests, and rent collection. Now I have my weekends back and my rental income is more consistent than ever.",
 			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-professional-woman-in-a-sleek-modern-h.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Theodore Mitchell",
+			position: "Investment Advisor",
+			company: "Homeowner",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
+				"I was terrified of legal issues and problem tenants when I first became a landlord. Their expert team handles all compliance and tenant screening, giving me complete peace of mind. I sleep well knowing my investment is protected.",
 			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-businessman-sitting-comfortably-in-a-c.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Valencia Chen",
+			position: "Software Engineer",
+			company: "Homeowner",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
+				"My rental income increased by 23% in the first year with their professional management. Their market knowledge, efficient maintenance, and tenant retention strategies have significantly boosted my property's profitability.",
 			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-young-professional-woman-relaxing-in-a.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Your property, our expertise"
+	subtitle="Comprehensive services that handle every aspect of rental management"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Expert tenant placement",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"We find and screen qualified tenants through rigorous background checks, credit verification, and rental history analysis to ensure reliable, long-term occupancy."
 		},
 		{
-			title: "Data Analysis",
+			title: "Seamless rent collection",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Our automated system handles all rent collection, late payments, and financial reporting so you receive consistent income without the hassle."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Complete property maintenance",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"From routine upkeep to emergency repairs, we coordinate with trusted contractors to maintain your property's condition and protect your investment value."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+
+<UseCases
+	title="Use Cases"
+	subtitle="Real-world applications for your property management needs"
+	useCases={[
+		{
+			title: "First-time landlords get expert guidance",
+			description: "New to rental property? Our comprehensive onboarding process guides you through tenant screening, lease agreements, and legal compliance. We handle the complexity so you can focus on building your investment portfolio with confidence.",
+			image: "/generated/image-a-homeowner-sitting-at-a-wooden-table-su.webp",
+			link: {
+				href: "/use-cases/first-time-landlords",
+				label: "Learn more"
+			}
+		},
+		{
+			title: "Professional maintenance preserves your investment",
+			description: "From routine upkeep to emergency repairs, our trusted contractor network ensures your property stays in excellent condition. We coordinate all maintenance activities, protecting your investment value while keeping tenants satisfied.",
+			image: "/generated/image-a-diverse-team-of-property-maintenance-w.webp",
+			link: {
+				href: "/use-cases/property-maintenance",
+				label: "Learn more"
+			}
+		},
+		{
+			title: "Quality tenants for long-term success",
+			description: "Our rigorous screening process includes background checks, credit verification, and rental history analysis to find reliable tenants. We match your property with families who will treat it as their home, ensuring consistent income and minimal turnover.",
+			image: "/generated/image-a-joyful-family-of-four-including-parent.webp",
+			link: {
+				href: "/use-cases/quality-tenant-placement",
+				label: "Learn more"
+			}
+		}
+	]}
+/>
+
+<AboutTeaser />
+<CallToAction />

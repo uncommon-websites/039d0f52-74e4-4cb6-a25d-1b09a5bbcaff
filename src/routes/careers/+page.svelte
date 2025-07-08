@@ -10,10 +10,10 @@
 	import JobList, { type JobOpening } from "./JobList.svelte";
 
 	// Icons
-	import IconBriefcase from "~icons/lucide/briefcase";
-	import IconUsers from "~icons/lucide/users";
-	import IconHeart from "~icons/lucide/heart";
-	import IconGlobe from "~icons/lucide/globe";
+	import IconBriefcase from "$lib/components/icons/Briefcase.svelte";
+	import IconUsers from "$lib/components/icons/Users.svelte";
+	import IconHeart from "$lib/components/icons/Heart.svelte";
+	import IconGlobe from "$lib/components/icons/Globe.svelte";
 
 	// Constants
 	const SECTION_BASE_CLASSES = "section-py section-px container mx-auto";
@@ -24,95 +24,95 @@
 
 	const benefits = [
 		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
+			title: "Industry Impact",
+			description: "Shape the future of property management while helping homeowners build wealth through real estate investments.",
 			icon: IconBriefcase
 		},
 		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
+			title: "Career Growth",
+			description: "Advance your career in the thriving property management industry with mentorship, training, and clear promotion pathways.",
 			icon: IconUsers
 		},
 		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
+			title: "Complete Benefits Package",
+			description: "Comprehensive health coverage, retirement matching, flexible PTO, and professional development opportunities.",
 			icon: IconHeart
 		}
 	];
 
 	const openings: JobOpening[] = [
-		// Engineering
+		// Property Management
 		{
-			title: "Senior Frontend Developer",
-			department: "Engineering",
-			location: "Remote",
+			title: "Property Manager",
+			department: "Property Management",
+			location: "On-site",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Backend Engineer",
-			department: "Engineering",
-			location: "Remote",
+			title: "Assistant Property Manager",
+			department: "Property Management",
+			location: "On-site",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Design Engineer",
-			department: "Engineering",
+			title: "Maintenance Coordinator",
+			department: "Property Management",
+			location: "On-site",
+			type: "Full-time",
+			url: "#"
+		},
+
+		// Leasing
+		{
+			title: "Leasing Agent",
+			department: "Leasing",
+			location: "On-site",
+			type: "Full-time",
+			url: "#"
+		},
+		{
+			title: "Tenant Relations Specialist",
+			department: "Leasing",
+			location: "On-site",
+			type: "Full-time",
+			url: "#"
+		},
+
+		// Operations
+		{
+			title: "Operations Manager",
+			department: "Operations",
+			location: "Hybrid",
+			type: "Full-time",
+			url: "#"
+		},
+		{
+			title: "Financial Analyst",
+			department: "Operations",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 
-		// Design
+		// Business Development
 		{
-			title: "UX/UI Designer",
-			department: "Design",
-			location: "Remote",
+			title: "Business Development Manager",
+			department: "Business Development",
+			location: "Hybrid",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Product Designer",
-			department: "Design",
-			location: "Remote",
-			type: "Full-time",
-			url: "#"
-		},
-
-		// Product
-		{
-			title: "Product Manager",
-			department: "Product",
-			location: "Remote",
+			title: "Client Relations Manager",
+			department: "Business Development",
+			location: "Hybrid",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Product Analyst",
-			department: "Product",
-			location: "Remote",
-			type: "Full-time",
-			url: "#"
-		},
-
-		// Marketing
-		{
-			title: "Marketing Specialist",
-			department: "Marketing",
-			location: "Remote",
-			type: "Full-time",
-			url: "#"
-		},
-		{
-			title: "Content Strategist",
-			department: "Marketing",
-			location: "Remote",
-			type: "Full-time",
-			url: "#"
-		},
-		{
-			title: "Social Media Manager",
+			title: "Marketing Coordinator",
 			department: "Marketing",
 			location: "Remote",
 			type: "Full-time",
@@ -122,29 +122,29 @@
 
 	const employeeTestimonials = [
 		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
+			name: "Sarah Mitchell",
+			position: "Senior Property Manager",
+			company: "Property Management Team",
 			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
+				"I love helping homeowners achieve their investment goals while building lasting relationships with tenants. The company provides excellent training and growth opportunities.",
 			image:
 				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 		},
 		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
+			name: "David Rodriguez",
+			position: "Leasing Agent",
+			company: "Leasing Team",
 			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
+				"Every day brings new challenges and opportunities to help homeowners find quality tenants. The supportive team environment makes it easy to succeed and grow.",
 			image:
 				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 		},
 		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
+			name: "Jennifer Kim",
+			position: "Operations Manager",
+			company: "Operations Team",
 			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
+				"I've been here for four years and have advanced from assistant to manager. The leadership invests in employee development and the property management industry offers great career stability.",
 			image:
 				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 		}
@@ -153,37 +153,37 @@
 	const processSteps = [
 		{
 			step: 1,
-			title: "Apply",
+			title: "Apply Online",
 			description:
-				"Submit your application through our careers portal with your resume and portfolio."
+				"Submit your application through our careers portal with your resume and cover letter explaining your interest in property management."
 		},
 		{
 			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
+			title: "Interview Process",
+			description: "Complete a phone screening followed by an in-person or video interview with our hiring team to discuss your experience and fit for the role."
 		},
 		{
 			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
+			title: "Join Our Team",
+			description: "Complete onboarding and training to become an expert in property management services for homeowners."
 		}
 	];
 
 	const values = [
 		{
 			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
+			title: "Homeowner-First",
+			description: "We're passionate about helping homeowners succeed with their rental investments and build long-term wealth."
 		},
 		{
 			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
+			title: "Trust & Reliability",
+			description: "We build lasting relationships through transparency, consistent communication, and dependable service delivery."
 		},
 		{
 			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
+			title: "Excellence in Service",
+			description: "We're committed to providing exceptional property management services that exceed expectations every day."
 		}
 	];
 </script>
@@ -191,15 +191,14 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	generating
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+	title="Build your career in property management"
+	subtitle="Join a team that's transforming how homeowners manage their rental properties. We're looking for passionate professionals who want to make a real difference in people's lives while growing their careers in a supportive, collaborative environment."
+	imageSrc="/generated/image-a-diverse-group-of-professionals-engaged.webp"
 />
 
 <!-- Why Join Us Section -->
-<section class={SECTION_BASE_CLASSES} generating>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+<section class={SECTION_BASE_CLASSES}>
+	<SectionHeader title="Why join us?" subtitle="Build your career in property management while helping homeowners succeed" />
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}
@@ -209,12 +208,12 @@
 </section>
 
 <!-- Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
-<Testimonials testimonials={employeeTestimonials} generating />
+<Testimonials testimonials={employeeTestimonials} />
 
 <!-- Application Process -->
-<section class={SECTION_BASE_CLASSES} generating>
+<section class={SECTION_BASE_CLASSES}>
 	<div class="mx-auto">
 		<h2 class="text-title1 mb-16">Our application process</h2>
 
@@ -232,7 +231,7 @@
 	</div>
 </section>
 <!-- Current Openings Section -->
-<section class={GRADIENT_BG_CLASSES} generating>
+<section class={GRADIENT_BG_CLASSES}>
 	<div class="section-px section-py container mx-auto grid w-full items-start lg:grid-cols-2">
 		<SectionHeader title="Current openings" subtitle="Find your perfect role" />
 
