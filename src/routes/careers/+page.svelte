@@ -192,7 +192,7 @@
 
 <SecondaryHero
 	title="Build your career in property management"
-	subtitle="Join a team that's transforming how homeowners manage their rental properties. We're looking for passionate professionals who want to make a real difference in people's lives while growing their careers in a supportive, collaborative environment."
+	subtitle="Join a team that's transforming how homeowners manage their rental properties. "
 	imageSrc="/generated/image-a-diverse-group-of-professionals-engaged.webp"
 />
 
