@@ -1,6 +1,6 @@
 // Types
 import type { PageLoad } from "./$types";
-import type { ComponentType } from "svelte";
+import type { Component } from "svelte";
 
 // Icons
 import IconUsers from "$lib/components/icons/Users.svelte";
@@ -40,7 +40,7 @@ type UseCase = {
 		items: Array<{
 			title: string;
 			description: string;
-			icon: ComponentType;
+			icon: Component;
 		}>;
 	};
 	cta: {

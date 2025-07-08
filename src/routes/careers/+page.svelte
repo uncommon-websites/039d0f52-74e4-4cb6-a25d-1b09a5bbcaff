@@ -126,27 +126,27 @@
 			position: "Senior Property Manager",
 			company: "Property Management Team",
 			quote:
-				"I love helping homeowners achieve their investment goals while building lasting relationships with tenants. The company provides excellent training and growth opportunities.",
+				"What I love most about working here is the genuine impact we have on homeowners' lives. I've helped over 200 property owners maximize their rental income while maintaining positive tenant relationships. The company invests heavily in our professional development - I've completed three industry certifications since joining, and my manager regularly checks in on my career goals.",
 			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-confident-african-american-woman-with-.webp"
 		},
 		{
 			name: "David Rodriguez",
 			position: "Leasing Agent",
 			company: "Leasing Team",
 			quote:
-				"Every day brings new challenges and opportunities to help homeowners find quality tenants. The supportive team environment makes it easy to succeed and grow.",
+				"Starting as a leasing agent here was the best career decision I've made. The collaborative culture means I'm never stuck on a problem - whether it's navigating a difficult tenant screening or learning new market trends, my team is always there to support me. In just 18 months, I've been promoted to senior leasing agent and am now mentoring new hires.",
 			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-friendly-hispanic-man-with-short-black.webp"
 		},
 		{
 			name: "Jennifer Kim",
 			position: "Operations Manager",
 			company: "Operations Team",
 			quote:
-				"I've been here for four years and have advanced from assistant to manager. The leadership invests in employee development and the property management industry offers great career stability.",
+				"The growth opportunities here are incredible. I started as an assistant coordinator and have been promoted three times in four years. Management actively encourages us to take on stretch assignments and provides the resources we need to succeed. The work-life balance is fantastic - I can pick up my kids from school and finish my day remotely when needed.",
 			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-smiling-asian-woman-with-shoulder-leng.webp"
 		}
 	];
 
