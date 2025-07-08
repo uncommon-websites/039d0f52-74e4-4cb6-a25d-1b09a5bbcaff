@@ -12,8 +12,8 @@
 
 <Hero
 	title="Turn your property into effortless income"
-	subtitle="Comprehensive property management services that handle everything from tenant placement to maintenance, so you can enjoy the profits without the hassles."
-	imageSrc="/generated/image-a-professional-homeowner-sitting-comfort.webp"
+	subtitle="Effortless income from your property"
+	imageSrc="/generated/image-a-modern-residential-home-with-a-cozy-in.webp"
 	centered={false}
 />
 <LogoScroller 
