@@ -17,7 +17,7 @@
 		{
 			name: "Lino Müller",
 			position: "Property Owner",
-			imageSrc: "/generated/image-a-professional-man-in-a-modern-office-se.webp"
+			imageSrc: "/generated/image-a-professional-middle-aged-german-man-st.webp"
 		},
 		{
 			name: "Julia Dreher",
